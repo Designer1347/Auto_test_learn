@@ -19,6 +19,7 @@ try:
     button = browser.find_element_by_class_name("btn.btn-default").click()
 
     print(browser.switch_to.alert.text)
+    print("okey")
 finally:
     time.sleep(10)
     browser.quit()
