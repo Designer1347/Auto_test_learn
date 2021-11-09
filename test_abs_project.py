@@ -10,3 +10,4 @@ class TestAbs(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
     print("Everything passed")
+# Коментарий для теста
